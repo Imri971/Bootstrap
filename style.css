@@ -1,0 +1,57 @@
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    padding-top: 56px;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+.navbar-light .navbar-nav .nav-link {
+
+    color: rgba(255,255,255,.5);
+
+}
+
+
+.navbar-light .navbar-brand {
+
+    color: #fff;
+
+}
+
+.carousel-item {
+
+    height: 65vh;
+    min-height: 300px;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.dropdown-menu {
+
+    background-color: #939496; 
+}
+
+.dropdown-item {
+    
+    background-color: #939496;
+}
+
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #b0b2b7;
+}
